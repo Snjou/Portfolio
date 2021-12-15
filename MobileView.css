@@ -70,7 +70,7 @@
   .about__body {
     overflow: scroll;
     margin-top: 4em;
-    height: 50%;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,19 +84,24 @@
     display: flex;
     flex-direction: column;
   }
+  .profile__img{
+    display: flex;
+    justify-content: center;
+  }
   .profile__bg {
     height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   .profile__content {
     color: white;
     width: 90%;
     height: 90%;
     background-color: red;
-    padding: 5px;
+    padding: 10px;
   }
   .profile__cert h1 {
     background-color: red;
@@ -138,6 +143,7 @@
   .project__head {
     width: 100%;
     height: 80%;
+    padding-bottom: 20%;
   }
   .project__head h1 {
     width: 100%;
@@ -147,4 +153,5 @@
     width: 100%;
     height: 100%;
   }
+
 }
